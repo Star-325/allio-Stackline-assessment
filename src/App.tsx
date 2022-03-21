@@ -7,7 +7,7 @@ import { MainBack, RightSector } from './AppStyles'
 
 const App: React.FC = () => {
   return (
-    <>
+    <div>
       <Topbar />
       <MainBack>
         <LeftPad />
@@ -16,7 +16,7 @@ const App: React.FC = () => {
           <DataTable />
         </RightSector>
       </MainBack>
-    </>
+    </div>
   )
 }
 
